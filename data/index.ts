@@ -1,14 +1,15 @@
 export const navItems = [
   { name: "Tentang", link: "#about" },
   { name: "Projek", link: "#projects" },
-  { name: "Testimoni", link: "#testimonials" },
+  { name: "Keahlian", link: "#skills" },
+  { name: "Pengalaman", link: "#experiences" },
   { name: "Kontak", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Fokus pada pengembangan web modern dan responsif.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Selalu belajar teknologi baru dan mengikuti tren.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Saya terus berusaha meningkatkannya.",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Antusias menciptakan solusi digital yang bermanfaat.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,58 +50,64 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Menulis kode bersih, rapi, dan mudah dipelihara.",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
+  // {
+  //   id: 6,
+  //   title: "Do you want to start a project together?",
+  //   description: "",
+  //   className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+  //   imgClassName: "",
+  //   titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+  //   img: "",
+  //   spareImg: "",
+  // },
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Clone Disnep Website",
+    des: "Aplikasi berbasis React yang menggunakan Vite untuk kecepatan build dan HMR Aplikasi ini menampilkan data dari The Movie Database (TMDB) menggunakan API publik mereka.",
+    img: "/cdw.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/vite.svg"],
+    link: "https://clone-disnepweb.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "iClone Apple Web",
+    des: "Tiruan situs web iPhone 15 Pro Apple yang menggunakan React.js dan TailwindCSS. Situs ini menyoroti penggunaan GSAP (Greensock Animations) dan Three.js yang efektif untuk menampilkan model iPhone 15 Pro dalam berbagai warna dan bentuk.",
+    img: "/p4.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/vite.svg"],
+    link: "https://apple-app-khaki.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "SIGMATOP",
+    des: "e-commerce untuk penjualan pakaian menggunakan Next.js dan Golang. Proyek ini bertujuan untuk menyediakan platform yang user-friendly bagi pelanggan untuk menjelajahi dan membeli berbagai produk pakaian dengan mudah.",
+    img: "/sigma.png",
+    iconLists: ["/next.svg", "/tail.svg", "/go.svg", "/mysql.svg", "/fire.svg"],
+    link: "https://sigma.sabar.my.id/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Sistem Informasi Administrasi Keuangan",
+    des: "sistem pengelolaan administrasi keuangan menggunakan Next.js dan Golang yang membantu sekolah dalam mengelola data keuangan secara real-time, tepat, dan akurat.",
+    img: "/simak.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/go.svg",
+      "/postgres.svg",
+      "/cloudinary.svg",
+    ],
+    link: "https://front-end-simak.vercel.app/login",
   },
 ];
 
@@ -140,64 +147,87 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
+    name: "Cloudinary",
+    img: "/cloudinary.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Go",
+    img: "/go.svg",
+    nameImg: "/goName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "ReactJS",
+    img: "/re.svg",
+    nameImg: "/reactName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "NextJS",
+    img: "/next.svg",
+    nameImg: "/nextName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Vue JS",
+    img: "/vue.svg",
+    nameImg: "/vueName.svg",
+  },
+  {
+    id: 6,
+    name: "Laravel",
+    img: "/larav.svg",
+    nameImg: "/nextName.svg",
+  },
+  {
+    id: 7,
+    name: "MySQL",
+    img: "/mysql.svg",
+    nameImg: "/mySQLName.svg",
+  },
+  {
+    id: 8,
+    name: "PostgreSQL",
+    img: "/postgres.svg",
+    nameImg: "/postgresName.svg",
+  },
+  {
+    id: 9,
+    name: "Github.",
+    img: "/git.svg",
+    nameImg: "/githubName.svg",
+  },
+  {
+    id: 10,
+    name: "Firebase.",
+    img: "/fire.svg",
+    nameImg: "/firebaseName.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Developer (Magang - WIT.ID)",
+    desc: "Mengembangkan sistem inventaris dengan teknologi Next.js dan Java Springboot di WIT Indonesia.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Fullstack Developer - Sanbercode",
+    desc: "Mengikuti pelatihan Fullstack Developer dan mengembangkan website e-commerce SIGMATOP untuk penjualan pakaian dengan teknologi Golang dan Next.js.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Backend Engineering - Ruang Guru",
+    desc: "Memperdalam pengembangan backend dengan Golang, termasuk sistem terdistribusi, gRPC, JWT, dan enkripsi data dan berhasil mengembangkan website Task Tracker untuk mengelola tugas mahasiswa.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -205,13 +235,19 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/denzalamsyah",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/rizwan-alamsyah/",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/twit.svg",
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
   },
 ];
